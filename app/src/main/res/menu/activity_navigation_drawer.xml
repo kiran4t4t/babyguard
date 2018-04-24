@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:title="@string/navigation_fragment_home" />
+        <item
+            android:id="@+id/nav_accelerometer"
+            android:title="@string/navigation_fragment_accelerometer" />
+        <item
+            android:id="@+id/nav_gyro"
+            android:title="@string/navigation_fragment_gyro" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:title="@string/navigation_fragment_temperature" />
+    </group>
+</menu>
